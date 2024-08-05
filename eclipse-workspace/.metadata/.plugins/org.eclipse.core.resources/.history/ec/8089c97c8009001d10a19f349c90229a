@@ -1,0 +1,45 @@
+package com.demo.project;
+
+public class StringMethodEx 
+{
+	
+	public static void main(String[] args) 
+	{
+		String s="Arunachala Pradesh";
+		System.out.println(s.length());
+		
+		//Method 1 - SubSting Method with one index
+		// We can directly print
+		System.out.println(s.substring(3));
+		
+		// We can create another object and print
+		String sub=s.substring(3);
+		System.out.println(sub);//With Variable name
+		System.out.println(s.substring(3));//directly calling substring method
+		
+		//Method 2 - Substring Method with two index
+		//We Can directly print
+		System.out.println(s.substring(1,5));
+		
+		// We can create another object and print
+		String sub1=s.substring(3);
+		System.out.println(sub1);//With Variable name
+		System.out.println(s.substring(1,5));//directly calling substring method
+		
+		//Method 3
+		//char method
+		char c=s.charAt(1);
+		System.out.println(c);
+		// or
+		System.out.println(s.charAt(1));
+		
+		//Index
+		System.out.println(s.indexOf('n'));
+		//or
+		int i=s.indexOf('n');
+		System.out.println(i);
+		
+		
+	}
+
+}

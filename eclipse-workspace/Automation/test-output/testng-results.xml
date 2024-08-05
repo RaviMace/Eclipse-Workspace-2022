@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[createdCampaigns]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[createdLeads]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[createdAccounts]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[createdContacts]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-17T10:39:53 IST" name="Suite" finished-at="2023-01-17T10:42:16 IST" duration-ms="143048">
+    <groups>
+    </groups>
+    <test started-at="2023-01-17T10:39:53 IST" name="Test" finished-at="2023-01-17T10:42:16 IST" duration-ms="143048">
+      <class name="com.zoho.systemtesting.Campaigns">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.zoho.systemtesting.Campaigns@49c7b90e]" started-at="2023-01-17T10:39:53 IST" name="openBrowser" finished-at="2023-01-17T10:39:59 IST" duration-ms="5771" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.zoho.systemtesting.Campaigns@49c7b90e]" started-at="2023-01-17T10:39:59 IST" name="login" finished-at="2023-01-17T10:40:05 IST" duration-ms="6054" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createLeads()[pri:0, instance:com.zoho.systemtesting.Campaigns@49c7b90e]" started-at="2023-01-17T10:40:05 IST" name="createLeads" finished-at="2023-01-17T10:40:12 IST" duration-ms="6876" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createdCampaigns]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.zoho.systemtesting.Campaigns@49c7b90e]" started-at="2023-01-17T10:40:12 IST" name="logout" finished-at="2023-01-17T10:40:13 IST" duration-ms="1072" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.zoho.systemtesting.Campaigns@49c7b90e]" started-at="2023-01-17T10:40:13 IST" name="closeBrowser" finished-at="2023-01-17T10:40:15 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.zoho.systemtesting.Campaigns -->
+      <class name="com.zoho.systemtesting.Accounts">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.zoho.systemtesting.Accounts@63a12c68]" started-at="2023-01-17T10:40:53 IST" name="openBrowser" finished-at="2023-01-17T10:40:56 IST" duration-ms="3747" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.zoho.systemtesting.Accounts@63a12c68]" started-at="2023-01-17T10:40:56 IST" name="login" finished-at="2023-01-17T10:41:07 IST" duration-ms="10630" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createLeads()[pri:0, instance:com.zoho.systemtesting.Accounts@63a12c68]" started-at="2023-01-17T10:41:07 IST" name="createLeads" finished-at="2023-01-17T10:41:18 IST" duration-ms="11262" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createdAccounts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.zoho.systemtesting.Accounts@63a12c68]" started-at="2023-01-17T10:41:18 IST" name="logout" finished-at="2023-01-17T10:41:20 IST" duration-ms="1777" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.zoho.systemtesting.Accounts@63a12c68]" started-at="2023-01-17T10:41:20 IST" name="closeBrowser" finished-at="2023-01-17T10:41:21 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.zoho.systemtesting.Accounts -->
+      <class name="com.zoho.systemtesting.Leads">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.zoho.systemtesting.Leads@7e5afaa6]" started-at="2023-01-17T10:40:15 IST" name="openBrowser" finished-at="2023-01-17T10:40:22 IST" duration-ms="7823" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.zoho.systemtesting.Leads@7e5afaa6]" started-at="2023-01-17T10:40:22 IST" name="login" finished-at="2023-01-17T10:40:37 IST" duration-ms="14719" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createLeads()[pri:0, instance:com.zoho.systemtesting.Leads@7e5afaa6]" started-at="2023-01-17T10:40:37 IST" name="createLeads" finished-at="2023-01-17T10:40:51 IST" duration-ms="13768" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createdLeads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.zoho.systemtesting.Leads@7e5afaa6]" started-at="2023-01-17T10:40:51 IST" name="logout" finished-at="2023-01-17T10:40:52 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.zoho.systemtesting.Leads@7e5afaa6]" started-at="2023-01-17T10:40:52 IST" name="closeBrowser" finished-at="2023-01-17T10:40:53 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.zoho.systemtesting.Leads -->
+      <class name="com.zoho.systemtesting.Contacts">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.zoho.systemtesting.Contacts@28f3b248]" started-at="2023-01-17T10:41:21 IST" name="openBrowser" finished-at="2023-01-17T10:41:26 IST" duration-ms="4906" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.zoho.systemtesting.Contacts@28f3b248]" started-at="2023-01-17T10:41:26 IST" name="login" finished-at="2023-01-17T10:41:42 IST" duration-ms="16240" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createLeads()[pri:0, instance:com.zoho.systemtesting.Contacts@28f3b248]" started-at="2023-01-17T10:41:42 IST" name="createLeads" finished-at="2023-01-17T10:42:14 IST" duration-ms="32111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createdContacts]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.zoho.systemtesting.Contacts@28f3b248]" started-at="2023-01-17T10:42:14 IST" name="logout" finished-at="2023-01-17T10:42:15 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.zoho.systemtesting.Contacts@28f3b248]" started-at="2023-01-17T10:42:15 IST" name="closeBrowser" finished-at="2023-01-17T10:42:16 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.zoho.systemtesting.Contacts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

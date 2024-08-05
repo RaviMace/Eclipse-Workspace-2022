@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.zoho.systemtesting.Campaigns">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="createLeads"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.zoho.systemtesting.Campaigns -->
+      <class name="com.zoho.systemtesting.Leads">
+        <methods>
+          <include name="createLeads"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.zoho.systemtesting.Leads -->
+      <class name="com.zoho.systemtesting.Contacts">
+        <methods>
+          <include name="createLeads"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.zoho.systemtesting.Contacts -->
+      <class name="com.zoho.systemtesting.Accounts">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="createLeads"/>
+        </methods>
+      </class> <!-- com.zoho.systemtesting.Accounts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

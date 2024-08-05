@@ -1,0 +1,34 @@
+package com.demo.project;
+
+public class StringMethodEx 
+{
+	
+	public static void main(String[] args) 
+	{
+		String s="India";
+		System.out.println(s.length());
+		
+		// We can directly print
+		System.out.println(s.substring(3));
+		
+		// We can create another object and print
+		String sub=s.substring(3);
+		System.out.println(sub);//With Variable name
+		System.out.println(s.substring(3));//directly calling substring method
+		
+		//char method
+		char c=s.charAt(1);
+		System.out.println(c);
+		// or
+		System.out.println(s.charAt(1));
+		
+		//Index
+		System.out.println(s.indexOf('n'));
+		//or
+		int i=s.indexOf('n');
+		System.out.println(i);
+		
+		
+	}
+
+}

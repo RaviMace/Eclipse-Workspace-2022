@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HandlingIFrameName.java&apos; to &apos;SeleniumAutomation/src/com.seleniumautomation.advance&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumAutomation&apos;&#x0D;&#x0A;- Destination element: &apos;SeleniumAutomation/src/com.seleniumautomation.advance&apos;&#x0D;&#x0A;- Original element: &apos;com.seleniumautomation.advance.HandlingIFrameName.java&apos;" description="Copy compilation unit" destination="/src&lt;com.seleniumautomation.advance" element1="/src&lt;com.seleniumautomation.advance{HandlingIFrameName.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1658985899496" units="1" version="1.0"/>
+</session>
